@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.rojo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+.titulo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    height: 95px;
+    font-weight: bold
+}
+
+.encabezado li {
+    list-style: none;
+    padding: 20px;
+    color: black;
+    font-size: 56px;
+    padding-left: 80px;
+    text-decoration: none;
+}
+
+.camp {
+    margin: 15px;
+    text-align: center;
+    font-size: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.encabezado a {
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+
+
+    font-weight: bold
+}
+
+.encabezado a :hover {
+    color: darkgreen;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.foot {
+    text-align: right;
+    color: rgb(165, 57, 151);
+    font-size: 30px;
+    font-weight: bold;
+    height: 5px;
+    padding: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+
+
+}
+
+.forms{text-align: center;
+    display: block;
+    padding: 55px;
+
+}
+
+.label{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+.comentario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+    font-style: inherit;
+    font-weight: bold;
+    margin: 30px;
+}
+
+.formulario {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+    margin-bottom: 20px;
+
+}
+
+.box {
+    font-style: initial;
+    text-align: center;
+    width: 500px;
+    height: 30px;
+}
+
+.send {
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    width: 200px;
+    height: max-content;
+    align-items: center;
+}
+
+/* SHOP */
+.indoor {
+    margin-top: 30px;
+    font-style: initial;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+.domo1 {
+    font-style: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    background-color: rgb(150, 163, 144);
+    border: 5px black;
+    margin: 15px;
+    border-style: solid;
+
+}
+
+.cubo1 {
+    font-style: inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    background-color: rgb(150, 163, 144);
+    border: 5px black;
+    margin: 15px;
+    border-style: solid;
+
+}
+
+/* Nosotros */
+
+.imglobos {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.parrafo {
+    text-align: center;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px black;
+    margin: 50px;
+    border-style: ridge;
+    background-color: blanchedalmond;
+
+
+}
+
+/* REVIEWS */
+
+.comen1 {
+    display: inline-block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.coments {
+    text-align: center;
+    font-style: oblique;
+    font-size: medium;
+    border-style: solid;
+    border: 2.5px rgb(0, 0, 0);
+    padding: 75px;
+
+}
+
+.hh {
+    text-align: center;
+    font-style: oblique;
+    font-size: medium;
+    border-style: dotted;
+    border: 5px rgb(3, 3, 3);
+    padding: 75px;
+    display: inline-block;
+
+}
